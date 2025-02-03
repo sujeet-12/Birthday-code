@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hritik's Birthday</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=aladin:400|alegreya-sans-sc:400|atomic-age:400" rel="stylesheet">
+    <style>
+    *{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior:smooth;
+    user-select:none;
+}
+
+header h1{
+    font-family: 'Aladin', handwriting;
+}
+
+        .scrollable-comments {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 50;
+        }
+        body {
+            margin-top: 3rem; 
+        }
+        .comment-divider {
+            border-color: #4A5568; 
+            border-top-width: 1px;
+        }
+        img:active{
+            transform: scale(.97);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header class="bg-gray-800 text-white p-2 flex justify-between items-center shadow-md">
+        <h1 class="text-xl font-bold">Hritik's Birthday</h1>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">
+         <a href="https://www.sololearn.com/profile/32122886/?ref=app">
+            Follow
+            </a>
+        </button>
+    </header>
+
+    <!-- Main -->
+    <main class="p-2">
+        <!-- Profile Card -->
+        <div class="max-w-lg mx-auto bg-gray-800 shadow-md rounded-sm overflow-hidden">
+            <div class="flex items-center p-4">
+                <a href="https://www.sololearn.com/profile/32122886/?ref=app">  <img src="https://img.freepik.com/premium-vector/hg-logo-vector_724449-166.jpg?hl=en-US" alt="Profile" class="w-14 h-14 rounded-full border-4 border-gray-700"> </a>
+                <div class="ml-4">
+                    <h2 class="text-l font-semibold">HRITIK</h2>
+                    <p class="text-gray-400 text-sm mt-1">July 26, 2024</p>
+                </div>
+            </div>
+              <div class="p-4">
+                <p class="text-gray-300">Happy Birthday to me! I am so excited to celebrate this special day with all my loved ones. Thank you for wishes!</p>
+            </div>
+            
+            <img src="https://img.freepik.com/free-vector/happy-birthday-lettering-with-golden-letters_52683-35047.jpg?hl=en-US" alt="Birthday Image" class="w-full h-64 object-cover">
+          
+            <div class="flex justify-between items-center p-2">
+              <div class="text-gray-400 hover:bg-gray-700 p-2 rounded-sm flex items-center">
+                    <ion-icon name="chevron-up-outline" class="h-6 w-6 text-gray-400"></ion-icon>
+                    <span class="ml-2">6 Upvotes</span>
+                </div>
+                
+                <div class="flex hover:bg-gray-700 p-2 rounded-sm items-center">
+                    <ion-icon name="chatbubble-outline" class="h-6 w-6 text-gray-400"></ion-icon>
+                    <span class="ml-2 text-gray-400">5 Comments</span>
+                </div>
+              
+            </div>
+            <!-- Comments Section -->
+            <div class="p-4 border-t border-gray-700 scrollable-comments">
+                <div class="flex items-start mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png?hl=en_US" alt="Commenter" class="w-10 h-10 rounded-full border-2 border-gray-700">
+                    <div class="ml-4 flex-1">
+                        <p class="font-semibold">CyberCraft 🇮🇳</p>
+                        <p class="text-gray-400">Happy Birthday bro 🥳</p>
+                        <p class="text-gray-500 text-xs mt-1">Posted on July 26, 2024</p>
+                    </div>               
+                </div>
+                <hr class="comment-divider p-2">
+                <div class="flex items-start mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png?hl=en_US" alt="Commenter" class="w-10 h-10 rounded-full border-2 border-gray-700">
+                    <div class="ml-4 flex-1">
+                        <p class="font-semibold">Web Devloper AD</p>
+                        <p class="text-gray-400">Happy birthday   <a href="https://www.sololearn.com/profile/32122886/?ref=app"><span class="text-green-400">Hritik</span> </a>🎉🥳</p>
+                        <p class="text-gray-500 text-xs mt-1">Posted on July 26, 2024</p>
+                    </div>
+                </div>
+                <hr class="comment-divider p-2">
+                <div class="flex items-start mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png?hl=en_US" alt="Commenter" class="w-10 h-10 rounded-full border-2 border-gray-700">
+                    <div class="ml-4 flex-1">
+                        <p class="font-semibold">Shihan</p>
+                        <p class="text-gray-400">Happy birthday! 🎉🥳 And I visited your address... And here is your gift: 🌪️🎁👍</p>
+                        <p class="text-gray-500 text-xs mt-1">Posted on July 26, 2024</p>
+                    </div>
+                </div>
+                <hr class="comment-divider p-2">
+                <div class="flex items-start mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png?hl=en_US" alt="Commenter" class="w-10 h-10 rounded-full border-2 border-gray-700">
+                    <div class="ml-4 flex-1">
+                        <p class="font-semibold">NextJS boi</p>
+                        <p class="text-gray-400">Happy birthday boss 🍰... Just parcel some cake at Gachibowli 😂👍</p>
+                        <p class="text-gray-500 text-xs mt-1">Posted on July 26, 2024</p>
+                    </div>
+                </div>
+                <hr class="comment-divider p-2">
+                <div class="flex items-start mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png?hl=en_US" alt="Commenter" class="w-10 h-10 rounded-full border-2 border-gray-700">
+                    <div class="ml-4 flex-1">
+                        <p class="font-semibold">Starly</p>
+                        <p class="text-gray-400">Happy birthday again this would mean your birthday is 26 of July that is cool I am jelly too 6 days ago in fact</p>
+                        <p class="text-gray-500 text-xs mt-1">Posted on July 26, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+            <!-- Left-sided Content -->
+            <div class="text-gray-400 text-sm">
+                <p>Contact: sujeetgau12@gmail.com</p>
+            </div>
+            <!-- Social Media Icons -->
+            <div class="flex space-x-4 mt-4 sm:mt-0">
+                <a href="https://codepen.io/sujeet-12" class="text-gray-400 hover:text-white">
+                    <ion-icon name="logo-codepen" class="h-6 w-6"></ion-icon>
+                </a>
+                <a href="https://github.com/sujeet-12" class="text-gray-400 hover:text-white">
+                    <ion-icon name="logo-github" class="h-6 w-6"></ion-icon>
+                </a>
+                <a href="https://bento.me/hritik-gautam" class="text-gray-400 hover:text-white">
+                    <ion-icon name="link" class="h-6 w-6"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/hritik-gautam-4bb2781b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-gray-400 hover:text-white">
+                    <ion-icon name="logo-linkedin" class="h-6 w-6"></ion-icon>
+                </a>
+            </div>
+            <!-- Right-sided Content -->
+            <div class="text-gray-400 text-sm mt-4 sm:mt-0">
+                <p>Made with <span class="text-red-500">&hearts;</span> by Hritik</p>
+            </div>
+        </div>
+        <!-- Divider -->
+        <hr class="my-4 border-gray-700">
+        <!-- Additional Suggestions -->
+        <div class="container mx-auto text-center text-gray-400 text-sm">
+            <p>Copyright © 2024 Hritik. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+      </html>
